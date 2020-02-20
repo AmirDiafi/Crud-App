@@ -1,0 +1,63 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: rgb(6, 106, 124);
+  color :#FFF
+}
+
+.container{
+  width: 60%;
+  margin: 10% auto;
+  box-shadow: 3px 3px 3px rgba(0, 0, 0, .5),
+              -3px -3px 3px rgba(255, 255, 255, .5);
+  border-radius: 10px;
+  padding: 10px;
+}
+
+h2{
+  font-size: 40px;
+  margin-bottom: -100px;
+}
+
+ul {
+  padding: 0;
+  list-style: none;
+}
+
+input, span {
+  padding: 10px;
+  background-color: #FFF;
+  border: none;
+  box-shadow: none;
+  font-size: 18px;
+  width: 50%;
+  color: #333;
+  display: inline-block;
+}
+input[type='submit'], button{
+  margin: 5px 0;
+  width: 100px;
+  color: #fff;
+  border: none;
+  background: rgb(3, 54, 63);
+  cursor: pointer;
+  padding :10px;
+  font-size: 18px;
+  font-weight: bold;
+}
+input[type='submit']{
+  width: 200px;
+}
+
+button.buttonAdd{
+  background: rgb(5, 73, 5)
+}
+
+button.buttonRemove {
+  background: rgb(83, 7, 7)
+}
+
+button.buttonEdit{
+  background: rgb(5, 73, 5);
+  width: 200px 
+}
